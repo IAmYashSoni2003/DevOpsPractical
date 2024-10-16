@@ -1,0 +1,6 @@
+version: '3'
+services:
+  python_app:
+    build: .
+    container_name: hello_python
+    command: python app.py
